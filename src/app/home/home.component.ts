@@ -1,0 +1,14 @@
+import { Component } from '@angular/core';
+
+@Component({
+    selector: 'home-cmp',
+    //moduleId: module.id,
+    templateUrl: 'home.component.html'
+})
+
+export class HomeComponent{
+  ngOnInit(){
+  console.log("IN")
+  }
+
+}

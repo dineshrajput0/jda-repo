@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 
 @Component({
     selector: 'ordersummary-cmp',
-    moduleId: module.id,
+   // moduleId: module.id,
     templateUrl: 'ordersummary.component.html'
 })
 

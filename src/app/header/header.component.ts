@@ -2,7 +2,7 @@ import { Component, OnInit } from '@angular/core';
 
 
 @Component({
-    moduleId: module.id,
+    //moduleId: module.id,
     selector: 'header-cmp',
     templateUrl: 'header.component.html',
 })

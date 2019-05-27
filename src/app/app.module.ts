@@ -2,6 +2,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
 import { SidebarModule } from './sidebar/sidebar.module';
 import { HeaderModule} from './header/header.module';
+import { HomeComponent }   from './home/home.component';
 import { OrderSummaryComponent }   from './ordersummary/ordersummary.component';
 import { CustomerInquieryComponent }   from './customerinquiery/customerinquiery.component';
 import { AppRoutingModule } from './app-routing.module';
@@ -12,6 +13,7 @@ import {BrowserAnimationsModule} from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
+    HomeComponent,
     AppComponent,
   OrderSummaryComponent,
   CustomerInquieryComponent
